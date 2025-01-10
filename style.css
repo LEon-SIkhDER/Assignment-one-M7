@@ -1,0 +1,97 @@
+/* default-css */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Fira Sans", serif;
+
+}
+body{
+    background: #f5f5f5;
+}
+/* common-css */
+
+.fix-width{
+    max-width: 1280px;
+    margin: auto;
+}
+.text-color1{
+    color: #0e0e0e;
+    opacity: 0.5;
+}
+/* header */
+header{
+    margin: 25px 0 50px 0;
+}
+
+.header-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header button{
+    height: 52px;
+    width: 116px;
+    border-radius: 8px;
+    color: #006A50;
+    font-size: 18px;
+    font-weight: 600;
+    border: 1px solid #006A50;
+}
+header button:hover{
+    color: white;
+    background: #006A50;
+    transition: 0.3s;
+}
+/* banner */
+.banner-content{
+    background: #C6E4D6;
+    border-radius: 24px;
+    padding: 80px 60px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner-left{
+    width: 622px;
+    height: 326px;
+
+}
+.banner-left h3{
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+.banner-left h1{
+    font-size: 56px;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+.banner-left button{
+    height: 56px;
+    width: 270px;
+    background: #006A50;
+    color: white;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 8px;
+    transition: 0.3s ease-in-out;
+
+}
+
+.banner-left button:hover{
+    background: #ffffff;
+    border: 1px solid #006A50;
+    color: #006A50;
+
+
+
+}
+.brimg{
+    background-image: url(assets/img/hero.png);
+    background-repeat: no-repeat;
+
+    height: 400px;
+    width: 475px;
+}
