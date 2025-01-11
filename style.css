@@ -41,8 +41,12 @@ header button:hover{
     color: white;
     background: #006A50;
     transition: 0.3s;
+    cursor: pointer;
 }
 /* banner */
+.banner{
+    margin-bottom: 80px;
+}
 .banner-content{
     background: #C6E4D6;
     border-radius: 24px;
@@ -84,6 +88,7 @@ header button:hover{
     background: #ffffff;
     border: 1px solid #006A50;
     color: #006A50;
+    cursor: pointer;
 
 
 
@@ -94,4 +99,155 @@ header button:hover{
 
     height: 400px;
     width: 475px;
+}
+/* pillars */
+.pillars{
+    margin-bottom: 80px;
+}
+.pillars-content h1{
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 32px;
+}
+.pillars .cards{
+    display: flex;
+    justify-content: space-between;
+}
+.pillars .card{
+    width: 302px;
+    background: white;
+    padding: 24px 24px 10px 24px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+}
+.pillars .cardimg{
+    background-image: url(assets/img/card-icon.png);
+    height: 64px;
+    width: 64px;
+    margin-bottom: 24px;
+}
+.pillars .card h3{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+.pillars .card p{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+}
+/* future-vision  */
+.future-vision .headline{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 24px;
+    
+}
+.future-vision .headtext{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    margin-bottom: 32px;
+}
+
+.future-vision .cards{
+    display: flex;
+    justify-content: space-between;
+}
+.future-vision .card{
+    width: 410px;
+    background: rgba(84, 143, 245, 0.2);
+    padding:33px ;
+    box-sizing: border-box;
+    border-radius: 16px;
+}
+
+
+
+.future-vision .card div{
+    background-image: url(assets/img/card-icon.png);
+    height: 64px;
+    width: 64px;
+    margin-bottom: 24px;
+}
+.future-vision .card h3{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+.future-vision .card p{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+    margin-bottom: 24px;
+}
+.future-vision .card button{
+    height: 41px;
+    width: 122px;
+    border-radius: 8px;
+    background: #5490F5;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    transition: 0.3s ease-in-out;
+}
+.future-vision .card:nth-child(2){
+    background: #C6E4D6;
+}
+.future-vision .card:nth-child(2) button{
+    background: #09A15C;
+}
+.future-vision .card:nth-child(3){
+    background: #F7EBCF;
+}
+.future-vision .card:nth-child(3) button{
+    background: #FFC239;
+}
+        /* hover  */
+.future-vision .card button:hover{
+    background: white;
+    border:1px solid #5490F5 ;
+    color: #5490F5;
+    cursor: pointer;
+}
+.future-vision .card:nth-child(2) button:hover{
+    color: #09A15C;
+    border-color: #09A15C;
+}
+.future-vision .card:nth-child(3) button:hover{
+    color: #FFC239;
+    border-color: #FFC239;
+}
+/* future-vision-footer */
+.future-vision-footer{
+    background: white;
+    padding: 48px 24px;
+    margin-top: 32px;
+    border-radius: 16px;
+    position: relative;
+}
+.future-vision-footer .fvfimg{
+    background-image: url(assets/img/quote-bg.png);
+    height: 64px;
+    width: 64px;
+    position: absolute;
+    top: 24px;
+    left: 24px;
+
+
+}
+.future-vision-footer p{
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 16px;
+    margin-bottom: 12px;
+
+}
+.future-vision-footer h3{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 4px;
+}
+.future-vision-footer h6{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.6);
+    font-weight: 400;
 }
